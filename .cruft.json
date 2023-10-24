@@ -1,6 +1,6 @@
 {
   "template": "https://github.com/kjaymiller/cookiecutter-relecloud",
-  "commit": "b8b0b53e7055267b4ba43063e3dcc20ab0034ed0",
+  "commit": "972993b589b44e87780a333d6081776eea23af2c",
   "checkout": null,
   "context": {
     "cookiecutter": {
@@ -13,7 +13,10 @@
       "__src_folder_name": "azure_flask_cosmos_postgres_aca",
       "__project_short_description": "Create a relecloud demo application with flask and cosmos-postgres",
       "_copy_without_render": [
-        ".github/workflows/*"
+        ".github/workflows/azure-dev.yml",
+        ".github/workflows/cruft.yml",
+        ".github/workflows/devcontainer-ci.yml",
+        ".github/workflows/format.yml"
       ],
       "_extensions": [
         "extensions.GetUrlForBackend"
