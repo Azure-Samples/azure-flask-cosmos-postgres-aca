@@ -2,6 +2,7 @@ import os
 import pathlib
 from multiprocessing import Process
 
+import ephemeral_port_reserve
 import pytest
 from flask import Flask
 
@@ -10,6 +11,7 @@ from flaskapp import create_app, db, seeder
 
 def run_server(app: Flask, port: int):
     app.run(port=port, debug=False)
+
 
 @pytest.fixture(scope="session")
 def app_with_db():
