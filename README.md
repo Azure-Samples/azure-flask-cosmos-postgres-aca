@@ -5,12 +5,10 @@ languages:
 - python
 - bicep
 - html
-- css
-- scss
 products:
 - azure
 - azure-container-apps
-- azure-postgresql
+- azure-database-postgresql
 - azure-cosmos-db
 urlFragment: azure-flask-cosmos-postgres-aca
 name: Deploy Flask Application with PostgreSQL on Azure Container Apps (Python)
